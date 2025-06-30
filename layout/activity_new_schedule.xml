@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_schedule_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入日程标题" />
+
+    <EditText
+        android:id="@+id/et_schedule_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入日程内容" />
+
+    <TextView
+        android:id="@+id/tv_schedule_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择日期"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showDatePicker" />
+
+    <TextView
+        android:id="@+id/tv_schedule_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择时间"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showTimePicker" />
+
+    <Switch
+        android:id="@+id/switch_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提醒" />
+
+    <Button
+        android:id="@+id/btn_save_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存日程" />
+
+</LinearLayout>

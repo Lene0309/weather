@@ -1,0 +1,22 @@
+<!-- res/menu/diary_filter_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter_day"
+        android:title="按日"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/filter_week"
+        android:title="按周"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/filter_month"
+        android:title="按月"
+
+        app:showAsAction="ifRoom" />
+</menu>
