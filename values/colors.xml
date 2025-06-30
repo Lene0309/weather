@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFE4EC</color>
+    <color name="purple_500">#FFD1DC</color>
+    <color name="purple_700">#FFF0F5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="weather_background">#F5F5F5</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="icon_tint">#2196F3</color>
+    <!-- 深色主题颜色 -->
+    <color name="surface_dark">#121212</color>
+    <color name="surface_container_high_dark">#1E1E1E</color>
+    <color name="surface_variant_dark">#2A2A2A</color>
+
+    <color name="on_primary">#000000</color>
+    <color name="on_surface_dark">#FFFFFF</color>
+    <color name="on_surface_variant_dark">#B3B3B3</color>
+    <color name="primary">#FFE4EC</color>
+    <color name="primary_dark">#FFD1DC</color>
+    <color name="primary_light">#FFF8FB</color>
+    <color name="primary_50">#FFF8FB</color>
+
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_dark">#018786</color>
+
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="error">#CF6679</color>
+
+    <color name="text_primary">#FFFFFF</color>
+
+
+    <color name="card_stroke">#424242</color>
+    <color name="slider_inactive">#424242</color>
+
+    <color name="bottom_bar">#1F1B24</color>
+    <color name="bottom_nav_icon">#FFFFFF</color>
+    <color name="bottom_nav_text">#FFFFFF</color>
+    <!-- 日间主题颜色 -->
+    <color name="primary_day">#2196F3</color>
+    <color name="primary_variant_day">#1976D2</color>
+    <color name="on_primary_day">#FFFFFF</color>
+    <color name="secondary_day">#4CAF50</color>
+    <color name="on_secondary_day">#000000</color>
+    <color name="window_background_day">#F5F5F5</color>
+    <color name="text_primary_day">#212121</color>
+
+    <!-- 夜间主题颜色 -->
+    <color name="primary_night">#6200EA</color>
+    <color name="primary_variant_night">#3700B3</color>
+    <color name="on_primary_night">#FFFFFF</color>
+    <color name="secondary_night">#03DAC6</color>
+    <color name="on_secondary_night">#000000</color>
+    <color name="window_background_night">#121212</color>
+    <color name="text_primary_night">#FFFFFF</color>
+    <color name="gray">#B3B0B0</color>
+    <color name="grayLight">#D3D0D0</color>
+    <color name="colorBackgroundLight">#FFF9C4</color>
+    <color name="colorTextLight">#222222</color>
+    <color name="colorBackgroundDark">#111111</color>
+    <color name="colorTextDark">#FFFFFF</color>
+    <color name="yellow">#FFD600</color>
+</resources>

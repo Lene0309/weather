@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 定义应用主题，继承自 Material Components -->
+    <style name="Theme.Weather" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- 自定义主题属性 -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 跟随系统（默认） -->
+    <style name="Theme.Weather.FollowSystem" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <!-- 浅色主题：黄底黑字，按钮为黄色 -->
+    <style name="Theme.Weather.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorBackgroundLight</item>
+        <item name="android:textColorPrimary">@color/colorTextLight</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorOnPrimary">@color/colorTextLight</item>
+    </style>
+
+    <!-- 深色主题：黑底白字，按钮为紫色 -->
+    <style name="Theme.Weather.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/colorBackgroundDark</item>
+        <item name="android:textColorPrimary">@color/colorTextDark</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/colorTextDark</item>
+    </style>
+</resources>
